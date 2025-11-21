@@ -26,8 +26,7 @@ Les éléments principaux incluent :
 ### Déplacements du joueur (Clavier)
 - **Flèche gauche / A** : déplacement vers la gauche + animation de course (`run`).  
 - **Flèche droite / D** : déplacement vers la droite + animation de course (`run`).  
-- **Flèche haut / W** : saut + double saut + animation (`jump`).  
-- **Flèche bas / S** : descente rapide + animation (`fall`).  
+- **Flèche haut / W** : saut + double saut + animation (`jump`).   
 
 ### Fond Parallax
 - Image de fond ajustée automatiquement à la taille de la fenêtre.  
@@ -40,19 +39,32 @@ Les éléments principaux incluent :
  
  ## Crédits
  - **joueur :**
-   - https://oboropixel.itch.io/character-animations
+   - https://jesshiyoo.itch.io/little-axion
  - **Ennemie :**
    - https://nastanliev.itch.io/mushrooms
  - **Audio :**
    - https://freesound.org/people/orginaljun/sounds/534347/
    - https://freesound.org/people/BloodPixelHero/sounds/584075/
    - https://sfxr.me/
+   - https://soundeffectgenerator.org/fr/audio-editor?url=https%3A%2F%2Fstore.soundeffectgenerator.org%2F1c826e5b-a27d-4051-81b2-ba50833389e1.wav&name=Crystal%20cauldron%20with%20high-pitched%20magical%20bubbling%20and%20harmonic%20resonance
+   - https://soundeffectgenerator.org/fr/audio-editor?url=https%3A%2F%2Fstore.soundeffectgenerator.org%2F01df28af-b777-4841-8b54-b28538338952.mp3&name=Magical%20crystal%20glowing%20and%20emitting%20a%20soft%2C%20ethereal%20hum%20with%20a%20gentle%20shimmer
  - **TileMap et fond:**
    - https://theflavare.itch.io/forest-nature-fantasy-tileset
  - **Particules :**
    - https://rustybulletgames.itch.io/colored-explosions-asset-pack
- - **Font :**
+ - **Font de texte :**
    - https://www.dafont.com/fr/kiwisoda.font
- - **Interface menu (cadres) :**
-   - 
+ - **Interface menu :**
+   - https://tiopalada.itch.io/tiny-rpg-mana-soul-gui
+   - https://quintino-pixels.itch.io/pixel-art-ui-elements
+ - **Interface boutons :**
+   - https://pixelexplosive.itch.io/free-pixel-ui-button-icon-set-21-fantasy-menu-buttons-32x32
+ - **Cristal :**
+   - https://frakassets.itch.io/free-dark-crystal-shrine
+ - **Clé :**
+   - https://tiopal(https://frakassets.itch.io/free-rotating-key
+  - **Portail :**
+   - https://opengameart.org/content/portals
+   
+  
 
