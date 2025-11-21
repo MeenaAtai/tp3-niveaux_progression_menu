@@ -11,7 +11,6 @@ Les éléments principaux incluent :
 - des événements de gameplay permettant au joueur **d’éliminer les ennemis en leur sautant dessus**,
 - une **interface de menu** utilisant sprites et boutons synchronisés avec les événements du jeu.
 
----
 
 ## Fonctionnalités
 
@@ -56,3 +55,4 @@ Les éléments principaux incluent :
    - https://www.dafont.com/fr/kiwisoda.font
  - **Interface menu (cadres) :**
    - 
+
