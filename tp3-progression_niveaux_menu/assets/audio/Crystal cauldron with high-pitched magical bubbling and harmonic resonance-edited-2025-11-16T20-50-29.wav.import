@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddk6c40pquy8d"
+path="res://.godot/imported/Crystal cauldron with high-pitched magical bubbling and harmonic resonance-edited-2025-11-16T20-50-29.wav-17788863b8c06b0469843b3b1e781a75.sample"
+
+[deps]
+
+source_file="res://assets/audio/Crystal cauldron with high-pitched magical bubbling and harmonic resonance-edited-2025-11-16T20-50-29.wav"
+dest_files=["res://.godot/imported/Crystal cauldron with high-pitched magical bubbling and harmonic resonance-edited-2025-11-16T20-50-29.wav-17788863b8c06b0469843b3b1e781a75.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

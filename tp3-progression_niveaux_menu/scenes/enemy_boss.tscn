@@ -1,0 +1,563 @@
+[gd_scene load_steps=119 format=3 uid="uid://y6xmw7qqnoha"]
+
+[ext_resource type="Script" uid="uid://csdtkf6s0wqvl" path="res://scripts/enemy_boss.gd" id="1_qk3jm"]
+[ext_resource type="Texture2D" uid="uid://civkp7y8gx40h" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="1_x6cr4"]
+[ext_resource type="Texture2D" uid="uid://dt3x0mec0xqnv" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="2_qk3jm"]
+[ext_resource type="Texture2D" uid="uid://cq7mfsukmarni" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="3_gfyum"]
+[ext_resource type="Texture2D" uid="uid://dnqs33tpcrxqh" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="4_x3xgd"]
+[ext_resource type="Texture2D" uid="uid://b8ajwpqy18w5b" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="5_0cc6t"]
+[ext_resource type="Texture2D" uid="uid://ctmuthsyas4a8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="6_5q1en"]
+[ext_resource type="Texture2D" uid="uid://k7cc4nxfmi7x" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="7_tapqp"]
+[ext_resource type="Texture2D" uid="uid://dl584hrue0va8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="8_3118a"]
+[ext_resource type="Texture2D" uid="uid://chmsk001qctj5" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="9_6m0su"]
+[ext_resource type="Texture2D" uid="uid://d2c17bd224v8g" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="10_nkd0x"]
+[ext_resource type="Texture2D" uid="uid://bnwko388lyq2j" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack1-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="11_g4cs4"]
+[ext_resource type="Texture2D" uid="uid://bgud1lbes6ura" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="12_320f6"]
+[ext_resource type="Texture2D" uid="uid://cmr6cmpr3jsak" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="13_h175t"]
+[ext_resource type="Texture2D" uid="uid://c37x2xt0re2ca" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="14_87xpt"]
+[ext_resource type="Texture2D" uid="uid://c42qpdj1y5f2x" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="15_21w8e"]
+[ext_resource type="Texture2D" uid="uid://bel7f08vkmy11" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="16_pytgo"]
+[ext_resource type="Texture2D" uid="uid://deaqgg5jgi1vo" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="17_a4bsm"]
+[ext_resource type="Texture2D" uid="uid://ci2defqmylfvn" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="18_07lwl"]
+[ext_resource type="Texture2D" uid="uid://cf2fo0kuat3uh" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="19_8gyd0"]
+[ext_resource type="Texture2D" uid="uid://dgmht53t7youo" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="20_bqgj0"]
+[ext_resource type="Texture2D" uid="uid://lu5551q0iew8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Attack2-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="21_cm4yq"]
+[ext_resource type="Texture2D" uid="uid://rt1rjyh25b5j" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="22_107ce"]
+[ext_resource type="Texture2D" uid="uid://bv6hfti8cvwn6" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="23_vrsfi"]
+[ext_resource type="Texture2D" uid="uid://b5ss2fxk8jpm7" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="24_yk6gr"]
+[ext_resource type="Texture2D" uid="uid://dtahwgtu6xkk1" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="25_2572q"]
+[ext_resource type="Texture2D" uid="uid://m2l55lvask1y" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="26_p7trh"]
+[ext_resource type="Texture2D" uid="uid://db7ppbty8b0ah" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="27_3r8sw"]
+[ext_resource type="Texture2D" uid="uid://s6atcfrudosk" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="28_7ob5e"]
+[ext_resource type="Texture2D" uid="uid://ck4s1lan4nea" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="29_k47v6"]
+[ext_resource type="Texture2D" uid="uid://c8msr0y1vqrgc" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="30_4iai3"]
+[ext_resource type="Texture2D" uid="uid://b6oq3cddmfuqm" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="31_g2knb"]
+[ext_resource type="Texture2D" uid="uid://dkhkubk0qsuu" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="32_3dtd0"]
+[ext_resource type="Texture2D" uid="uid://dg45yhk3fxd10" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0011.png" id="33_8y7na"]
+[ext_resource type="Texture2D" uid="uid://db6nuwtxpdcnp" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0012.png" id="34_pjlkx"]
+[ext_resource type="Texture2D" uid="uid://b06gf3p2oi8s4" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0013.png" id="35_khohj"]
+[ext_resource type="Texture2D" uid="uid://cb0umfor3woyj" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Dash-MoonstoneKeeper-SUCART/No BG/frame0014.png" id="36_8yxkf"]
+[ext_resource type="Texture2D" uid="uid://c8judto0t4nuc" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="37_px3c5"]
+[ext_resource type="Texture2D" uid="uid://kxgeytqtctqv" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="38_tyl37"]
+[ext_resource type="Texture2D" uid="uid://y68maqqr6rq8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="39_yri54"]
+[ext_resource type="Texture2D" uid="uid://cahi4r7tknwtj" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="40_sh4ja"]
+[ext_resource type="Texture2D" uid="uid://b12f7bvkgpdmf" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="41_jy4rx"]
+[ext_resource type="Texture2D" uid="uid://d30yfjf82x5fr" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="42_guxfj"]
+[ext_resource type="Texture2D" uid="uid://dk1x5w4op6xxg" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="43_lgrsg"]
+[ext_resource type="Texture2D" uid="uid://cadiuld7rdrd7" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="44_22q2e"]
+[ext_resource type="Texture2D" uid="uid://dyom4hqloryho" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="45_fgd63"]
+[ext_resource type="Texture2D" uid="uid://bmk4353i0jxsk" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="46_bftby"]
+[ext_resource type="Texture2D" uid="uid://c853hdwieu161" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="47_t7pks"]
+[ext_resource type="Texture2D" uid="uid://bupajjgu3nrir" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0011.png" id="48_32lce"]
+[ext_resource type="Texture2D" uid="uid://bncc14gpsoxom" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0012.png" id="49_sh7em"]
+[ext_resource type="Texture2D" uid="uid://dy8ddb70blobe" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0013.png" id="50_8xx4n"]
+[ext_resource type="Texture2D" uid="uid://bb51r16rak7th" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0014.png" id="51_d7ppr"]
+[ext_resource type="Texture2D" uid="uid://ce2yovmoagoax" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0015.png" id="52_ihr1k"]
+[ext_resource type="Texture2D" uid="uid://chy4oey6bv8hi" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0016.png" id="53_3que2"]
+[ext_resource type="Texture2D" uid="uid://ds3f3k00sx0rw" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0017.png" id="54_njyfi"]
+[ext_resource type="Texture2D" uid="uid://7p2b3uqssevm" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Death-MoonstoneKeeper-SUCART/No BG/frame0018.png" id="55_47qee"]
+[ext_resource type="Texture2D" uid="uid://bwj4cgvu4jn1p" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="56_gv6bb"]
+[ext_resource type="Texture2D" uid="uid://c2d855vgxnwly" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="57_t7db1"]
+[ext_resource type="Texture2D" uid="uid://dijrnna61l61r" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Hit-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="58_pitj5"]
+[ext_resource type="Texture2D" uid="uid://dmeo0l1upfjk8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="59_ro4cd"]
+[ext_resource type="Texture2D" uid="uid://cmsfgtgwsidrv" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="60_m85bg"]
+[ext_resource type="Texture2D" uid="uid://d4diyidn68dy" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="61_1gd0d"]
+[ext_resource type="Texture2D" uid="uid://cbyr41a15jhgj" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="62_22rqb"]
+[ext_resource type="Texture2D" uid="uid://dxae6vkuufaeu" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="63_j817j"]
+[ext_resource type="Texture2D" uid="uid://br4d4u550qdus" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="64_ap6ke"]
+[ext_resource type="Texture2D" uid="uid://fdqag62r3hr" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="65_b7wgc"]
+[ext_resource type="Texture2D" uid="uid://elprepckmfb4" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="66_04mud"]
+[ext_resource type="Texture2D" uid="uid://byhlfbn68h6ip" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="67_oapm7"]
+[ext_resource type="Texture2D" uid="uid://ccbdv4wl0cpev" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="68_r7g7r"]
+[ext_resource type="Texture2D" uid="uid://dpjkadqhnr46u" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="69_sgixp"]
+[ext_resource type="Texture2D" uid="uid://cx0b7tlgycf6n" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0011.png" id="70_tqxau"]
+[ext_resource type="Texture2D" uid="uid://bvfamfk2e7m3y" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0012.png" id="71_f0mi6"]
+[ext_resource type="Texture2D" uid="uid://x3f2jr8rbyex" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0013.png" id="72_38fjj"]
+[ext_resource type="Texture2D" uid="uid://dnrnx1lotr62s" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0014.png" id="73_2b7gj"]
+[ext_resource type="Texture2D" uid="uid://c70uk27gwmhsc" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0015.png" id="74_gf3c5"]
+[ext_resource type="Texture2D" uid="uid://dqdcqp1a5j0um" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Idle-MoonstoneKeeper-SUCART/No BG/frame0016.png" id="75_iyy6f"]
+[ext_resource type="Texture2D" uid="uid://c71xeeitglvjd" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="76_6401w"]
+[ext_resource type="Texture2D" uid="uid://cxnkuhpguybom" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="77_03q1d"]
+[ext_resource type="Texture2D" uid="uid://cq5r2hkdvexq" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Loop-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="78_xexh8"]
+[ext_resource type="Texture2D" uid="uid://df5mlok8i2rxs" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="79_uv1gx"]
+[ext_resource type="Texture2D" uid="uid://bl1yrkh6smfjq" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="80_vni7i"]
+[ext_resource type="Texture2D" uid="uid://1ui16tn0o3mr" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="81_q56pt"]
+[ext_resource type="Texture2D" uid="uid://bbx2vtqoin035" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="82_3v8bc"]
+[ext_resource type="Texture2D" uid="uid://d052od7sejl57" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Jump Start-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="83_3ifj7"]
+[ext_resource type="Texture2D" uid="uid://b25i14qgrighl" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="84_lit17"]
+[ext_resource type="Texture2D" uid="uid://bbqdwac0do0fr" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="85_yvhvi"]
+[ext_resource type="Texture2D" uid="uid://hsjpxbxua7od" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="86_kuttl"]
+[ext_resource type="Texture2D" uid="uid://cr0t1k7rey8w7" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Land-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="87_idws7"]
+[ext_resource type="Texture2D" uid="uid://dwmecf0tbgwjn" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Portraits-MoonstoneKeeper-SUCART/Facing_Down.png" id="88_tt8sv"]
+[ext_resource type="Texture2D" uid="uid://cpmjb5u6456om" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Portraits-MoonstoneKeeper-SUCART/Facing_Straight.png" id="89_1q54d"]
+[ext_resource type="Texture2D" uid="uid://cp2bf1a8f13t1" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Portraits-MoonstoneKeeper-SUCART/Facing_Up.png" id="90_71y1c"]
+[ext_resource type="Texture2D" uid="uid://d4lnkvkxpast0" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="91_tsbcv"]
+[ext_resource type="Texture2D" uid="uid://dcs4qqkfx1udg" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="92_pxqnc"]
+[ext_resource type="Texture2D" uid="uid://cgt2ohe25ykci" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="93_xeqr0"]
+[ext_resource type="Texture2D" uid="uid://b21bh2glbuvgk" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="94_706cl"]
+[ext_resource type="Texture2D" uid="uid://g6aoim17a77d" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="95_uylkc"]
+[ext_resource type="Texture2D" uid="uid://7ajacdwapubp" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="96_l6nl0"]
+[ext_resource type="Texture2D" uid="uid://d0jqk8xd8gure" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="97_h084t"]
+[ext_resource type="Texture2D" uid="uid://dxwy04ecqij6q" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="98_g5imq"]
+[ext_resource type="Texture2D" uid="uid://2s0x4cepogt3" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="99_h8oeb"]
+[ext_resource type="Texture2D" uid="uid://detg456fo0eto" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="100_rwgvf"]
+[ext_resource type="Texture2D" uid="uid://cffofmw58ubpa" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="101_t230b"]
+[ext_resource type="Texture2D" uid="uid://cqkgq34t15qk8" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Run Alt-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="102_1sg57"]
+[ext_resource type="Texture2D" uid="uid://46n7p1h7nlxw" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0000.png" id="103_52pg1"]
+[ext_resource type="Texture2D" uid="uid://dr1bxi5fam2ym" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0001.png" id="104_tlbu1"]
+[ext_resource type="Texture2D" uid="uid://c4kp0filcgfew" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0002.png" id="105_gfnhm"]
+[ext_resource type="Texture2D" uid="uid://bukd6ihs5q1k5" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0003.png" id="106_cs0y6"]
+[ext_resource type="Texture2D" uid="uid://b2ll704miybqs" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0004.png" id="107_21th6"]
+[ext_resource type="Texture2D" uid="uid://ciatq6mofirbs" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0005.png" id="108_gr55n"]
+[ext_resource type="Texture2D" uid="uid://bs0oebjcmwwnj" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0006.png" id="109_35hh5"]
+[ext_resource type="Texture2D" uid="uid://cd75wghe3p5nu" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0007.png" id="110_p505f"]
+[ext_resource type="Texture2D" uid="uid://dc07ouxgfkta0" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0008.png" id="111_g6sij"]
+[ext_resource type="Texture2D" uid="uid://bp7ev73v125ck" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0009.png" id="112_eiohl"]
+[ext_resource type="Texture2D" uid="uid://cypmc0418xawy" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0010.png" id="113_4iblv"]
+[ext_resource type="Texture2D" uid="uid://bh4ers46vrrpk" path="res://assets/personnage/ennemis/ennemie_03/Moonstone_Keeper Eldermoon_Grove - By SUCART/Walk-MoonstoneKeeper-SUCART/No BG/frame0011.png" id="114_37fda"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h60sl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_x6cr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_qk3jm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gfyum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_x3xgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0cc6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5q1en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tapqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3118a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6m0su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nkd0x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_g4cs4")
+}],
+"loop": true,
+"name": &"attack1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_320f6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_h175t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_87xpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_21w8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pytgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a4bsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_07lwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_8gyd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bqgj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cm4yq")
+}],
+"loop": true,
+"name": &"attack2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_107ce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_vrsfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_yk6gr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_2572q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_p7trh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_3r8sw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7ob5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_k47v6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_4iai3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_g2knb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_3dtd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8y7na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_pjlkx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_khohj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_8yxkf")
+}],
+"loop": true,
+"name": &"dash",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_px3c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_tyl37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_yri54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_sh4ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_jy4rx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_guxfj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_lgrsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_22q2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_fgd63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_bftby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_t7pks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_32lce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_sh7em")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_8xx4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_d7ppr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_ihr1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_3que2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_njyfi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_47qee")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("56_gv6bb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_t7db1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_pitj5")
+}],
+"loop": true,
+"name": &"hit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("59_ro4cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_m85bg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_1gd0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_22rqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_j817j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ap6ke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_b7wgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_04mud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_oapm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_r7g7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_sgixp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_tqxau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_f0mi6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_38fjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_2b7gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_gf3c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_iyy6f")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("76_6401w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_03q1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_xexh8")
+}],
+"loop": true,
+"name": &"jump_loop",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("79_uv1gx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_vni7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_q56pt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_3v8bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_3ifj7")
+}],
+"loop": true,
+"name": &"jump_start",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("84_lit17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_yvhvi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_kuttl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_idws7")
+}],
+"loop": true,
+"name": &"land",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("88_tt8sv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_1q54d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_71y1c")
+}],
+"loop": true,
+"name": &"portraits",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("91_tsbcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_pxqnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_xeqr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_706cl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_uylkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_l6nl0")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("97_h084t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_g5imq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_h8oeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_rwgvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_t230b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_1sg57")
+}],
+"loop": true,
+"name": &"run Alt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103_52pg1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_tlbu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_gfnhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_cs0y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_21th6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_gr55n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_35hh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_p505f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_g6sij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_eiohl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_4iblv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_37fda")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_802rn"]
+size = Vector2(20, 70)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qk3jm"]
+radius = 113.137
+
+[node name="enemy_boss" type="CharacterBody2D"]
+script = ExtResource("1_qk3jm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_h60sl")
+animation = &"death"
+frame_progress = 0.0833099
+speed_scale = 2.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_802rn")
+
+[node name="soundDeath" type="AudioStreamPlayer2D" parent="."]
+
+[node name="soundAttack" type="AudioStreamPlayer2D" parent="."]
+
+[node name="soundIdle" type="AudioStreamPlayer2D" parent="."]
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+position = Vector2(8.58307e-06, -4)
+scale = Vector2(11.2, 6.8)
+
+[node name="DetectionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+shape = SubResource("CircleShape2D_qk3jm")
+
+[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_entered"]
+[connection signal="body_exited" from="DetectionArea" to="." method="_on_detection_exited"]

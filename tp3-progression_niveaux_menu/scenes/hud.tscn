@@ -1,0 +1,105 @@
+[gd_scene load_steps=7 format=3 uid="uid://1wmm2o1u22n4"]
+
+[ext_resource type="Script" uid="uid://ypjd7f683i23" path="res://scripts/hud.gd" id="1_uo2fv"]
+[ext_resource type="Texture2D" uid="uid://bh40erpkp6f27" path="res://assets/UI_UX/tinyRPG_manaSoulGUI_v_1_0/20250420manaTabD-Sheet.png" id="2_6fi6k"]
+[ext_resource type="FontFile" uid="uid://bfqb0iyxyahdd" path="res://assets/font/kiwisoda/KiwiSoda.ttf" id="2_oo0fn"]
+[ext_resource type="Texture2D" uid="uid://c0r2tbgx4s0am" path="res://assets/UI_UX/tinyRPG_manaSoulGUI_v_1_0/20250420manaSoulHeaderA-Sheet.png" id="3_6fi6k"]
+[ext_resource type="Texture2D" uid="uid://pedv7i2nqvpw" path="res://assets/UI_UX/tinyRPG_manaSoulGUI_v_1_0/20250420manaSoul9SlicesE-Sheet.png" id="5_uo2fv"]
+[ext_resource type="Texture2D" uid="uid://cti7oy5jd10kb" path="res://assets/clés/free_rotating_key_frakassets/Nouveau projet (1).png" id="6_047uy"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_uo2fv")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(1.52588e-05, 7.62939e-06)
+
+[node name="header" type="Sprite2D" parent="Node2D"]
+position = Vector2(192, 80)
+scale = Vector2(5.25, 4.5)
+texture = ExtResource("2_6fi6k")
+hframes = 4
+frame = 2
+
+[node name="header3" type="Sprite2D" parent="Node2D"]
+position = Vector2(214, 74.5)
+scale = Vector2(6.20833, 2.96875)
+texture = ExtResource("3_6fi6k")
+
+[node name="header2" type="Sprite2D" parent="Node2D"]
+position = Vector2(231, 76)
+scale = Vector2(2.16667, 0.5625)
+texture = ExtResource("5_uo2fv")
+
+[node name="header4" type="Sprite2D" parent="Node2D"]
+position = Vector2(127.083, 176)
+scale = Vector2(3.37326, 2.5625)
+texture = ExtResource("2_6fi6k")
+hframes = 4
+frame = 2
+
+[node name="LabelCLés" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 57.0
+offset_right = 122.0
+offset_bottom = 97.0
+theme_override_colors/font_outline_color = Color(0.575793, 0.340386, 0.389544, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_oo0fn")
+theme_override_font_sizes/font_size = 40
+text = "Clés :"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchors_preset = -1
+anchor_left = 0.204
+anchor_top = 0.12
+anchor_right = 0.204
+anchor_bottom = 0.12
+offset_left = -60.008
+offset_top = -19.76
+offset_right = 58.992
+offset_bottom = 17.24
+
+[node name="Key1" type="TextureRect" parent="HBoxContainer"]
+modulate = Color(1, 1, 1, 0.490196)
+layout_mode = 2
+texture = ExtResource("6_047uy")
+expand_mode = 2
+
+[node name="Key2" type="TextureRect" parent="HBoxContainer"]
+modulate = Color(1, 1, 1, 0.490196)
+layout_mode = 2
+texture = ExtResource("6_047uy")
+expand_mode = 2
+
+[node name="Key3" type="TextureRect" parent="HBoxContainer"]
+modulate = Color(1, 1, 1, 0.490196)
+layout_mode = 2
+texture = ExtResource("6_047uy")
+expand_mode = 2
+
+[node name="LabelEnnemies" type="Label" parent="."]
+offset_left = 36.0
+offset_top = 160.0
+offset_right = 167.0
+offset_bottom = 191.0
+theme_override_colors/font_outline_color = Color(0.575793, 0.340386, 0.389544, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_oo0fn")
+theme_override_font_sizes/font_size = 30
+text = "Ennemies :"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+offset_left = 190.0
+offset_top = 161.0
+offset_right = 203.0
+offset_bottom = 192.0
+
+[node name="Label" type="Label" parent="HBoxContainer2"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0.576471, 0.341176, 0.388235, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_oo0fn")
+theme_override_font_sizes/font_size = 30
+text = "0"

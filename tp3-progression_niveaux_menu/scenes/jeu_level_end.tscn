@@ -1,0 +1,165 @@
+[gd_scene load_steps=19 format=3 uid="uid://d33mdnf36u4lu"]
+
+[ext_resource type="Script" uid="uid://ut1ebvqjcley" path="res://scripts/jeu_level_end.gd" id="1_31bme"]
+[ext_resource type="FontFile" uid="uid://bfqb0iyxyahdd" path="res://assets/font/kiwisoda/KiwiSoda.ttf" id="1_as5ky"]
+[ext_resource type="Texture2D" uid="uid://4nr4uh3xm8jo" path="res://assets/UI_UX/tinyRPG_manaSoulGUI_v_1_0/20250420manaSoul9SlicesC-Sheet.png" id="1_uyput"]
+[ext_resource type="Texture2D" uid="uid://v1o7fsgs8val" path="res://assets/personnage/joueur/v03/Luneblade - Little Axion (Free)/Sprite Sheet/Jump.png" id="2_uyput"]
+[ext_resource type="Texture2D" uid="uid://c4smpo3nks6w6" path="res://assets/personnage/joueur/v03/Luneblade - Little Axion (Free)/Sprite Sheet/Fall.png" id="4_4blxq"]
+[ext_resource type="AudioStream" uid="uid://klobhib86pq7" path="res://assets/audio/626259__rolly-sfx__youve-succeeded-game-jingle.wav" id="5_jptrr"]
+[ext_resource type="Texture2D" uid="uid://04v7v525hasn" path="res://assets/UI_UX/Free_Menu_Buttons/Sprite_Png/Nouveau projet.png" id="6_tsyw8"]
+[ext_resource type="Texture2D" uid="uid://bnlc8crg4ppa7" path="res://assets/UI_UX/Free_Menu_Buttons/Sprite_Png/quit.png" id="7_ypsf2"]
+[ext_resource type="AudioStream" uid="uid://dhqil5ik13306" path="res://assets/audio/click.wav" id="8_ikknw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsyw8"]
+atlas = ExtResource("2_uyput")
+region = Rect2(0, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ypsf2"]
+atlas = ExtResource("2_uyput")
+region = Rect2(288, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_31bme"]
+atlas = ExtResource("2_uyput")
+region = Rect2(432, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikknw"]
+atlas = ExtResource("4_4blxq")
+region = Rect2(0, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u27j8"]
+atlas = ExtResource("4_4blxq")
+region = Rect2(144, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_guco4"]
+atlas = ExtResource("4_4blxq")
+region = Rect2(288, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sm4vv"]
+atlas = ExtResource("4_4blxq")
+region = Rect2(432, 0, 144, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdjxu"]
+atlas = ExtResource("2_uyput")
+region = Rect2(144, 0, 144, 144)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a5x86"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tsyw8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ypsf2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_31bme")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikknw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u27j8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_guco4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sm4vv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdjxu")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}]
+
+[node name="jeu_level_end" type="Node2D"]
+script = ExtResource("1_31bme")
+
+[node name="fond" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(12.1667, 6.91667)
+texture = ExtResource("1_uyput")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 408.0
+offset_top = 104.0
+offset_right = 758.0
+offset_bottom = 184.0
+theme_override_colors/font_outline_color = Color(0.576471, 0.341176, 0.388235, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("1_as5ky")
+theme_override_font_sizes/font_size = 80
+text = "Bien joué !"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 304.0
+offset_top = 200.0
+offset_right = 842.0
+offset_bottom = 236.0
+theme_override_colors/font_outline_color = Color(0.576471, 0.341176, 0.388235, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("1_as5ky")
+theme_override_font_sizes/font_size = 35
+text = "Vous avez réussi de compléter le jeu."
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 256.0
+offset_right = 579.0
+offset_bottom = 287.0
+theme_override_colors/font_outline_color = Color(0.576471, 0.341176, 0.388235, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_as5ky")
+theme_override_font_sizes/font_size = 30
+text = "Ennemies :"
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 600.0
+offset_top = 256.0
+offset_right = 613.0
+offset_bottom = 287.0
+theme_override_colors/font_outline_color = Color(0.576471, 0.341176, 0.388235, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_as5ky")
+theme_override_font_sizes/font_size = 30
+text = "0"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(568, 416)
+scale = Vector2(5, 5)
+sprite_frames = SubResource("SpriteFrames_a5x86")
+animation = &"jump"
+autoplay = "jump"
+frame_progress = 0.710694
+
+[node name="ButtonRestart" type="Button" parent="."]
+offset_left = 120.0
+offset_top = 360.0
+offset_right = 1408.0
+offset_bottom = 1088.0
+scale = Vector2(0.3, 0.3)
+focus_mode = 0
+icon = ExtResource("6_tsyw8")
+flat = true
+
+[node name="ButtonQuit" type="Button" parent="."]
+offset_left = 640.0
+offset_top = 360.0
+offset_right = 803.0
+offset_bottom = 456.0
+scale = Vector2(2.2, 2.2)
+focus_mode = 0
+icon = ExtResource("7_ypsf2")
+flat = true
+
+[node name="ClickSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_ikknw")
+
+[node name="sonBackground" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_jptrr")
+autoplay = true
+
+[connection signal="pressed" from="ButtonRestart" to="." method="_on_button_restart_pressed"]
+[connection signal="pressed" from="ButtonQuit" to="." method="_on_button_quit_pressed"]
